@@ -1,0 +1,21 @@
+{
+  "budget": 3,
+  "gap": 2,
+  "bad_item_code": "E_BAD_ITEM",
+  "bad_node_code": "E_BAD_NODE",
+  "bad_upto_code": "E_BAD_UPTO",
+  "over_code": "E_OVER",
+  "back_code": "E_BACK",
+  "no_node_code": "E_NO_NODE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "lead": [], "nodes": [], "catch": [], "bulks": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "lead", "item": "a" },
+    { "id": 2, "kind": "lead", "item": "b" },
+    { "id": 3, "kind": "ack", "node": "n1", "upto": 0 },
+    { "id": 4, "kind": "lead", "item": "c" },
+    { "id": 5, "kind": "catch", "node": "n1" },
+    { "id": 6, "kind": "ack", "node": "n2", "upto": 2 },
+    { "id": 7, "kind": "catch", "node": "n2" }
+  ]
+}
